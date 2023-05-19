@@ -1,0 +1,66 @@
+- Development Model
+.water-fall
+waterfall: 폭포, 폭포의 물은 한번 떨어지면 다시 올라갈 수 없다.
+한번에 개발하는 것. 설계를 완벽하게. 버그가 없다. 안정성 대박
+오래 걸림. 변화에 적응하기 어려움(만약 글로 소통하는 앱을 만들고 있는데, 사진을 첨부해서 소통하는 앱이 유행하면 이로 따라잡기 어렵다는 소리. 주제를 갑자기 바꾸기 어려움)
+
+.Agile
+설계기간 짧음, 변화에 빨리빨리 대응 가능.
+일단 만들어 내고 버그가 발생하면 그때그때 대응하는 방식.
+안정성은 떨어짐. 사용자들이 느끼는 사용자 경험이 좋진 않음.
+
+
+- Application Service Model
+.Server-Client
+Client <-> Server
+핵 P2P보단 잘 잡음, 관리가 수월함
+서버에서 동작되고 명령되기 때문
+
+원랜 서버가 클라이언트에게 먼저 명령하는건 불가능 했었음. 그래서 유저가 접속하기 전까지는 알림이 안왔었는데, 안드로이드는 이걸 해냄
+vv 서버가 클라이언트에게 명령을 내리는 것
+Push-Notification
+이게 있음으로써 카톡 알림이 바로바로 오거나 유튜브 생방송 알림이 바로바로 오는 것임!
+
+
+.Peer to Peer(P2P)
+Client <-> Client
+대표적인 완전 P2P >> Torent
+예산이 그리 많이 필요하지 않다.
+핵 잘 못잡음
+
+
+
+
+Back End
+Server
+Web/Application/Server WAS 와스
+Data Base Server
+
+
+Front End
+Client
+Client Application
+단말기 << 키오스크/기계:  맨 마지막에서 사용자를 만나는 기계?
+
+사용자가 기계(단말기)랑 상호작용 할 때 거치는 과정
+입력(사용자) >> 기계 >> ClientApplication >> WAS >> DataBaseServer >> WAS >> ClientApplication >> 기계 >> 사용자
+
+
+
+UI
+User
+Interface
+
+API
+Application
+Interface
+
+Inter/face
+Inter: ~사이에
+face: 얼굴, 면
+얼굴과 얼굴 사이에 
+
+:) <-> (:
+    ^
+Interface
+소통도구
